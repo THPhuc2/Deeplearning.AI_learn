@@ -1,0 +1,4 @@
+w: vector trọng số có kích thước tương ứng với đặc trưng trong dữ liệu, nếu có n đặc trưng thì w sẽ là (n, 1)
+b: hệ số chặn, giúp điều chỉnh xuất phát của hàm sigmoid khởi tạo giá trị bắt đầu cho hàm
+
+sau khi tính toán sigmoid để dự đoán nếu kết quả ko tốt ta thực hiện gradient descent để có thể điều chỉnh w, b để giảm thiểu hàm mất mát. nó sẽ tính toán đạo hàm của hàm mất mát theo w, b và sẽ giảm giá trị để tối ưu tốt mô hình
